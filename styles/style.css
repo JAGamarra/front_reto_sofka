@@ -16,10 +16,10 @@ body {
 
 
 :root {
-    --primary-color: #5D737E;
-    --secondary-color: #D6F8D6;
-    --tertiary-color: #7FC6A4;
-    --quaternary-color: #55505C;
+    --primary-color: #2ec4b6;
+    --secondary-color: #cbf3f0;
+    --tertiary-color: #ffbf69;
+    --quaternary-color: #2ec4b6;
     --hover-color: #4e616b;
     --shadow-color: rgba(57, 127, 93, 0.4);
     --font-style: 'Questrial';
@@ -48,6 +48,10 @@ h2 {
     padding: 15px;
 }
 
+.header h2 {
+    color: #000;
+}
+
 .main {
     display: flex;
     justify-content: center;
@@ -58,7 +62,7 @@ h2 {
 }
 
 #player {
-    color: #FAF33E;
+    color: #2ec4b6;
 }
 
 .final {
@@ -212,7 +216,7 @@ h3 {
 
 /* On mouse-over, add a grey background color */
 .container:hover input~.checkmark {
-    background-color: #7e7e7e;
+    background-color: #2ec4b6;
 }
 
 /* When the radio button is checked, add a blue background */
